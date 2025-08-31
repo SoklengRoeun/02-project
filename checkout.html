@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>checkout</title>
+    <link href="styles/checkout.css" rel="stylesheet" >
+</head>
+<body class="font-sans">
+    <div class="navbar">
+        <a href="bookstore.html" class="w-[68px] flex items-center gap-1 " >
+            <img src="image/logo-bookstore.png" alt="logo-bookstore">
+            <span class="font-bold max-[558px]:hidden">Bookstore <br>Officail</span>
+        </a> 
+        <div class="text-[1.2rem] text-red-800 font-bold max-[558px]:text-[1rem]">
+            Checkout (Items) 
+        </div>
+        <div>
+            <img src="image/icons/checkout-lock-icon.png" alt="checkout-lock-icon">
+        </div>
+    </div>
+    <div class="main">
+        <div class="page-title" >Review your order</div>
+        
+        <div class="checkout-grid">
+            <div class="order-summary 
+                js-order-summary"> <!--all order summary put in js-order-summary-->
+            </div>
+
+            <div class="payment-summary 
+             js-payment-summary">
+                    
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="scripts/checkout.js"></script>
+</body>
+</html>

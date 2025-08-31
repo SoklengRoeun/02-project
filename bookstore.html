@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./styles/output.css" rel="stylesheet">
+</head>
+    <body class="font-sans">
+        
+        <header class="navbar">
+            <div class="header-left">
+                <img class="w-full h-full" src="image/logo-bookstore.png" alt="logo-bookstore">
+            </div>
+
+            <div class="header-center" >
+                <input class="outline-orange-400 w-0 grow" type="text" placeholder="   Search" >
+                <img class="bg-orange-300 rounded-tr-sm rounded-br-sm p-1.5" src="image/icons/search-icon.png" alt="search-icon" >
+            </div>
+
+            <div class="header-right">
+                <div class="text-white font-medium">
+                    <span class="text-[0.8rem]">Returns</span><br> 
+                    <span> &Orders</span>
+                </div>
+                <a class="flex flex-shrink relative right-3" href="checkout.html" >
+                        <img class="w-[55px] shrink-0" src="image/icons/cart-icon.png" alt="cart-icon">
+                        <span class="cart-quantity js-cart-quantity">0</span>
+                        <span class="text-white text-lg self-end pt-3">Cart</span>
+                </a>
+            </div>
+        </header>
+        
+        
+        <section class="message-welcome">
+            <div class="flex flex-col items-start">
+                <h1 class="text-[2.5rem] font-bold  max-[575px]:text-[2.3rem] max-[450px]:text-[2rem]">Welcome <br>to bookstore officail</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates molestias et,
+                    expedita <br> quo doloribus quaerat illum ut ullam quam ad quos, atque cupiditate. Deser
+                    unt impeditveritatis <br> similique magnam dignissimos nesciunt.
+                </p>
+                <button class="btn-go-on">Go on -></button>
+            </div>
+        </section>
+
+        <div class="products-grid 
+            js-products-grid">
+        </div>
+
+        <script type="module" src="scripts/bookstore.js"></script>
+    </body>
+</html>
